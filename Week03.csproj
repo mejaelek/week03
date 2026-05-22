@@ -1,0 +1,29 @@
+ <Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!--
+      OutputType=Library lets MSTest discover tests without needing a Main().
+      All five problems live in SetsAndMaps.cs and Maze.cs.
+    -->
+    <OutputType>Library</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Week03</RootNamespace>
+  </PropertyGroup>
+
+  <!-- MSTest runner -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageReference Include="MSTest.TestAdapter"     Version="3.1.1"  />
+    <PackageReference Include="MSTest.TestFramework"   Version="3.1.1"  />
+  </ItemGroup>
+
+  <!-- Copy census.txt next to the DLL so File.ReadLines("census.txt") works -->
+  <ItemGroup>
+    <Content Include="census.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

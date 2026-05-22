@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Week 03 — Sets and Maps (Tests)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/week03/code/bin/Debug/net8.0/Week03.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/week03/code",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        }
+    ]
+}

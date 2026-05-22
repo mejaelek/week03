@@ -1,0 +1,25 @@
+ 1,John,Smith,Male,Bachelors,45000
+2,Jane,Doe,Female,Masters,62000
+3,Bob,Johnson,Male,Bachelors,48000
+4,Alice,Williams,Female,PhD,85000
+5,Charlie,Brown,Male,High School,32000
+6,Diana,Prince,Female,Masters,70000
+7,Edward,Norton,Male,Bachelors,51000
+8,Fiona,Apple,Female,PhD,91000
+9,George,Burns,Male,High School,29000
+10,Hannah,Montana,Female,Bachelors,44000
+11,Ivan,Drago,Male,Masters,67000
+12,Julia,Roberts,Female,Bachelors,55000
+13,Kevin,Hart,Male,High School,38000
+14,Laura,Croft,Female,Masters,72000
+15,Mike,Tyson,Male,High School,41000
+16,Nancy,Drew,Female,Bachelors,47000
+17,Oscar,Wilde,Male,PhD,88000
+18,Patricia,Smith,Female,Masters,64000
+19,Quincy,Jones,Male,Bachelors,53000
+20,Rachel,Green,Female,Bachelors,49000
+21,Steve,Rogers,Male,High School,35000
+22,Tina,Turner,Female,Masters,76000
+23,Ulysses,Grant,Male,PhD,83000
+24,Vera,Wang,Female,Bachelors,58000
+25,Walter,White,Male,PhD,95000
